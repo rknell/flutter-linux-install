@@ -2,16 +2,28 @@
 
 A command-line utility for installing Flutter Linux applications across different distributions.
 
-## Installation
+## Quick Installation
+
+You can install the utility directly using curl:
+```bash
+curl -fsSL https://raw.githubusercontent.com/rknell/flutter-linux-install/main/install.sh | sudo bash
+```
+
+Or using wget:
+```bash
+wget -qO- https://raw.githubusercontent.com/rknell/flutter-linux-install/main/install.sh | sudo bash
+```
+
+## Manual Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/flutter_linux_install.git
+   git clone https://github.com/rknell/flutter-linux-install.git
    ```
 
 2. Install the utility:
    ```bash
-   cd flutter_linux_install
+   cd flutter-linux-install
    sudo ./install.sh
    ```
 
